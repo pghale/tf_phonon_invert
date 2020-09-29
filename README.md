@@ -1,17 +1,14 @@
 # tf_phonon_invert
 Invert total scattering measurements for phonons
 
-Software/Data stack:
-The data Itotal.npy simulated using the 
-
-Tensorflow (2.3)
-At the moment forward model of phonons D(k) --> I(q)
-inversion is attempted via backpropagation of one layer.
+At the moment forward model of phonons D(k) --> I(q) can be computed, but direct inversion has never been attempted. Here, inversion is attempted via backpropagation of one layer.
 
 Software stack: ----------------------------------
+        
         conda, pip, tensorflow2.3, (Atomic Simulation Engine) https://wiki.fysik.dtu.dk/ase/ ASE
 
 List of files: -----------------------------------
+        
         src files: Aluminum_data_generator.py -- uses ASE module to simulate X-ray scattering, will be replaced by experimental data
                     src_tensorflow.py -- contains the actual forward model of the simulation in tensorflow and optimizes
         
