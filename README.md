@@ -1,10 +1,13 @@
 # tf_phonon_invert
 Invert total scattering measurements for phonons
 
-The data in this project is simulated using the ASE (Atomic Simulation Engine) link: 
-https://wiki.fysik.dtu.dk/ase/
+Software/Data stack:
+The data Itotal.npy simulated using the ASE (Atomic Simulation Engine) https://wiki.fysik.dtu.dk/ase/
 
-Inversion is done via tensorflow (2.x)
+Tensorflow (2.3)
+At the moment forward model of phonons D(k) --> I(q)
+inversion is attempted via backpropagation of one layer.
 
-Software stack does not consist of anything else
+
+
 
