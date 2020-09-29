@@ -19,6 +19,8 @@ List of files: -----------------------------------
                            gradientnorms_v_iterations.png -- norm of gradient at each iteration
 
         Misc file :       Al_phonon.png -- Phonon DOS that we expect after convergence.
+        
+        Theory file:      phonons_inv.pdf
 
 
 
